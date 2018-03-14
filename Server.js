@@ -42,6 +42,6 @@ app.get('/send',function(req,res){
 /*--------------------Routing Over----------------------------*/
 
 app.listen(process.env.PORT || 3000,function(){
-    var port = server.address().port;
+    const port = process.env.PORT || 3000;
     console.log("Express Started on Port " + port);
 });
