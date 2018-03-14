@@ -2,12 +2,12 @@
   "name": "kloepfercons_api",
   "version": "1.0.0",
   "description": "kloepfercons api",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "mukesh",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
